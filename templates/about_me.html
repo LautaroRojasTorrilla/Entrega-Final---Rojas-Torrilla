@@ -1,0 +1,47 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block body %}
+    <body background-color=""> </body>
+		<div class="container">
+			<div class="header">
+				<h1>Sobre Mí</h1>
+			</div><!-- end header-->
+			<div class="image">
+				<img width="150rem" height="150rem" src="{% static 'AppSpace/assets/img/foto_about.jpeg' %}">
+			</div><!-- end image-->
+			<div class="intro column" style="text-align: justify;">
+				<h2>Introducción</h2>
+				<p>
+                    Soy Lautaro Rojas Torrilla. Tengo 32 años, desarrollador/programador junior. Me gusta pasar mi tiempo con amigos o jugando al lol. Soy fanático del animé, particularmente de One Piece y cualquier cosa que se trate del espacio.
+				</p>
+			</div><!-- end intro-->
+			<div class="skills column">
+				<h3>Mis Habilidades</h3>
+				<ul id="skill-list">
+					<li>Desarrollo en C y Python</li>
+					<li>Trabajo en Equipo</li>
+					<li>Pensamiento Analitico</li>
+					<li>Generación de reportes</li>
+					<li>Escucha activa</li>
+				</ul><!--end skill-list-->
+			</div><!-- end skills-->
+			<div class="main-text" style="text-align: justify;">
+				<h3>Más de mí</h3>
+				<p>
+					Soy licenciado en comercio internacional pero siempre me interesó mucho el mundo de la informática y la programación. Mucho conocimiento informático lo he adquirido de manera autodidacta.
+				</p>
+				<p>
+					Me considero una persona eficiente a la hora de obtener resultados. Poseo hábitos de autodisciplina y autonomía. En formación continua en un mundo globalizado, de permanentes cambios, aplicando mi experiencia en el trabajo en el equipo, el afrontamiento de problemas, la toma de decisiones y siendo fuente de consultas de mis colegas.
+				</p>
+				<p>
+					<a href="https://www.linkedin.com/in/soporteaplicaciones-lautaro-rojas/">Mi Linkedin</a>
+				</p>
+				<p>
+					<a href="https://github.com/LautaroRojasTorrilla">Mi GitHub</a>
+				</p>
+			</div><!-- end main-text-->
+		</div><!--end container-->
+    </body>
+
+
+{% endblock %}

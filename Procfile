@@ -1,0 +1,1 @@
+web: gunicorn Entrega_Final_Rojas_Torrilla.wsgi
