@@ -52,7 +52,7 @@ _Además crear habitantes para estos planetas, setear su idioma y modificar el p
 *  El siguiente paso se encuentra dentro de la Solapa Estrella, crear una Estrella donde podras elegir el sistema planetario al que pertenece_
 * _A continuación será posible agregar un planeta o no, si es que se quiere crear Habitantes, los mismos requieren tener un planeta creado para que se pueda cargar la opción Planeta Natal y Habitando Planeta_ 
 * Finalmente, está la posibilidad de consultar por el momento, los habitantes con determinado apellido o tambien, todos los habitantes que existan_
-
+* El enlace del video de muestra es https://www.youtube.com/watch?v=vJ1ppqBmQpA _
 
 
 ## Known Bugs
